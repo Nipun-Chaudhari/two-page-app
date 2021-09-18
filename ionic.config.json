@@ -1,0 +1,7 @@
+{
+  "name": "Two Page App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

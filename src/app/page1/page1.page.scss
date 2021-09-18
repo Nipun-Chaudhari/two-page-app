@@ -1,0 +1,57 @@
+.container{
+    // border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(163, 2, 163);
+    border-radius: 5%;
+}
+
+#title{
+    display: flex;
+    width: 44%;
+    margin-left: 13%;
+    margin-top: 7%;
+    color: white;
+}
+
+#title h2{
+    font-weight: 600;
+}
+
+.avatars{
+    margin-left: 10%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar-images{
+    width: 90px;
+    height: 65px;
+    padding: 6px;
+}
+
+.contacts{
+    // border: 2px solid black;
+    height: 114%;
+    background-color: white;
+    border-radius: 10%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    justify-content: space-evenly;
+}
+
+.friends{
+    display: flex;
+    flex-direction: row;
+    // border: 2px solid red;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.friends-avatar-images{
+    width: 16%;
+    margin: 14px;
+}
